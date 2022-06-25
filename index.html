@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Albert Barnabas</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <h2>Ab</h2>
+            </a>
+
+            <div class="nav__menu" id="navMenu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btn">
+                <i class='bx bx-sun' id="darkmode"></i>
+                <div class="nav__toggle" id="toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section id="home" class="home" data-aos="fade-up" data-aos-duration="500">
+            <div class="container home__container">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/albert-barnabas/">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/AlbertBarnabas10">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                    <a href="https://dribbble.com/AlbertUI">
+                        <i class='bx bxl-dribbble'></i>
+                    </a>
+                </div>
+                <div class="home__intro">
+                    <h5>Hello There,</h5>
+                    <h1>I am <span style="color:var(--primary-color)">A</span>lbert <span
+                            style="color:var(--primary-color)">B</span>arnabas</h1>
+                    <h4>I like to explore Web Design and write some codes :)</h4>
+                    <a href="#about">Explore More</a>
+                </div>
+                <div class="home__img">
+                    <img src="assets/img/albert barnabas.png" alt="Albert Barnabas">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="about" data-aos="fade-up" data-aos-duration="500">
+            <div class="container about__container">
+                <h2 class="about__header">About <span style="color:var(--primary-color)">Me</span></h2>
+                <div class="about__content">
+                    <div class="about__img">
+                        <img src="assets/img/foto diri 2.jpg" alt="">
+                    </div>
+                    <div class="about__text">
+                        <p>Hi Everyone, I am Albert Barnabas. I was born on August 2002. Currently a Student in Binus
+                            University majoring in Information Systems. Now i’m on the 4th semester in university taking
+                            Business Intelligence as my Elective.
+                            I like to create Mock Up of Web Design and Code it. Besides that, i like to explore and
+                            learn new things such as Languages, Self-Development and Personal Finance Management.
+                            You can download my CV with this link below!</p>
+                        <div class="about__btn">
+                            <a href="assets/CV/CV Albert Barnabas.pdf" download>Download Cv</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio" data-aos="fade-up" data-aos-duration="500">
+            <div class="container port__container">
+                <h2 class="port__header">My <span style="color:var(--primary-color)">Work</span></h2>
+                <div class="port__content">
+                    <div class="port__card 1">
+                        <img src="assets/img/GrowUp.png" alt="">
+                        <div class="port__wrapper">
+                            <h4>GrowUp Mentorship Management Systems</h4>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="port__card 1">
+                        <img src="assets/img/GrowUp.png" alt="">
+                        <div class="port__wrapper">
+                            <h4>GrowUp Mentorship Management Systems</h4>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="port__card 1">
+                        <img src="assets/img/GrowUp.png" alt="">
+                        <div class="port__wrapper">
+                            <h4>GrowUp Mentorship Management Systems</h4>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="port__card 1">
+                        <img src="assets/img/GrowUp.png" alt="">
+                        <div class="port__wrapper">
+                            <h4>GrowUp Mentorship Management Systems</h4>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="port__card 1">
+                        <img src="assets/img/GrowUp.png" alt="">
+                        <div class="port__wrapper">
+                            <h4>GrowUp Mentorship Management Systems</h4>
+                            <a href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section id="contact" class="contact" data-aos="fade-up" data-aos-duration="500">
+            <div class="contact__container container">
+                <h2 class="contact__header">Let's <span style="color:var(--primary-color)">Talk</span></h2>
+                <div class="contact__content">
+                    <div class="left-side">
+                        <!-- <div class="topic-text">Contact Me</div> -->
+                        <p>You have work to do? or You want to say hello to me? Just send me a message :)</p>
+                        <form action="#">
+                            <div class="input-box">
+                                <input type="text" id="username" placeholder="Enter your name" required>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="input-box message-box">
+                                <textarea type="text" id="message" placeholder="Write your message" cols="40" rows="8"
+                                    required></textarea>
+                            </div>
+                            <div class="button">
+                                <input type="button" id="contact__btn" value="Send Message">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="right-side">
+                        <div class="instagram details">
+                            <i class='bx bxl-instagram'></i>
+                            <div class="topic">Direct Message</div>
+                            <div class="text-one">@albertbarnabas_</div>
+                        </div>
+                        <div class="email details">
+                            <i class='bx bx-envelope'></i>
+                            <div class="topic">Email</div>
+                            <div class="text-one" >
+                                <a href="mailto:albertbarnabas10@gmail.com" style="color: var(--dark-color)">albertbarnabas10@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <h4 class="footer__header">&copy; 2022, All rights reserved. Made with <i class='bx bxs-heart'></i> by
+                Albert Barnabas.</h4>
+        </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
