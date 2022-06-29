@@ -251,17 +251,22 @@ h3 {
     .nav__list {
         flex-direction: column;
         row-gap: 1.5rem;
+        z-index: 100;
     }
 
     .nav__menu {
         position: fixed;
         background: var(--light-color);
-        width: 80%;
-        height: 100%;
+        width: 90%;
+        height: 650px;
         right: -100%;
         top: 0;
         padding: 4rem 0 0 3rem;
         z-index: 100;
+    }
+
+    .nav__item{
+        padding: 20px 10px;
     }
 
     .menu__clicked {
